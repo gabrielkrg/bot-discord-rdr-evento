@@ -97,10 +97,10 @@ function winners(string $file, array $players)
         foreach ($lines as $i => &$line) {
             if (strpos($line, $name) !== false) {
                 // Altera a linha quando a string é encontrada
-                $line = $name . ';' . ($points + 100) . ';' . ($victories + 1) . ';' . $loses . "\n";
+                $line = $name . ';' . ($points + 100) . ';' . ($victories + 1) . ';' . $loses . ";1\n";
 
                 if ($i == count($lines) - 1) {
-                    $line = $name . ';' . ($points + 100) . ';' . ($victories + 1) . ';' . $loses;
+                    $line = $name . ';' . ($points + 100) . ';' . ($victories + 1) . ';' . $loses . ';1';
                 }
             }
         }
@@ -129,10 +129,10 @@ function losers(string $file, array $players)
         foreach ($lines as $i => &$line) {
             if (strpos($line, $name) !== false) {
                 // Altera a linha quando a string é encontrada
-                $line = $name . ';' . ($points - 50) . ';' . $victories . ';' . ($loses + 1) . "\n";
+                $line = $name . ';' . ($points - 50) . ';' . $victories . ';' . ($loses + 1) . ";1\n";
 
                 if ($i == count($lines) - 1) {
-                    $line = $name . ';' . ($points - 50) . ';' . $victories . ';' . ($loses + 1);
+                    $line = $name . ';' . ($points - 50) . ';' . $victories . ';' . ($loses + 1) . ';1';
                 }
             }
         }

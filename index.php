@@ -30,17 +30,17 @@ $discord = new Discord([
 $discord->on('ready', function (Discord $discord) {
     echo "Bot is ready!", PHP_EOL;
 
-    // $start = new Command($discord, ['name' => 'carroceirostart', 'description' => 'Inicia a partida!']);
-    // $discord->application->commands->save($start);
+    $start = new Command($discord, ['name' => 'carroceirostart', 'description' => 'Inicia a partida!']);
+    $discord->application->commands->save($start);
 
-    // $reset = new Command($discord, ['name' => 'carroceiroreset', 'description' => 'Reseta os pontos dos jogadores e arquivo de log!']);
-    // $discord->application->commands->save($reset);
+    $reset = new Command($discord, ['name' => 'carroceiroreset', 'description' => 'Reseta os pontos dos jogadores e arquivo de log!']);
+    $discord->application->commands->save($reset);
 
-    // $team1 = new Command($discord, ['name' => 'carroceiroteam1', 'description' => 'Contabiliza a vitória para os integrantes do time 1!']);
-    // $discord->application->commands->save($team1);
+    $team1 = new Command($discord, ['name' => 'carroceiroteam1', 'description' => 'Contabiliza a vitória para os integrantes do time 1!']);
+    $discord->application->commands->save($team1);
 
-    // $team2 = new Command($discord, ['name' => 'carroceiroteam2', 'description' => 'Contabiliza a vitória para os integrantes do time 2!']);
-    // $discord->application->commands->save($team2);
+    $team2 = new Command($discord, ['name' => 'carroceiroteam2', 'description' => 'Contabiliza a vitória para os integrantes do time 2!']);
+    $discord->application->commands->save($team2);
 });
 
 /**
