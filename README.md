@@ -11,7 +11,7 @@ Bot criado para o evento realizado entre os jogadores do Mephist Gang no jogo Re
 
 ## Configuração do bot
 
-Com o **PHP** e **Composer** instalados e projeto baixado, navegue até a pasta do projeto, e dentro da pasta crie um arquivo com o nome **.env**, dentro desse arquivo será necessário colocar o token do bot que foi criado no [Portal de Desenvovedor do Discord](https://discord.com/developers/applications), com a seguinte formatação: 
+Com o **PHP** e **Composer** instalados e projeto baixado, navegue até a pasta do projeto, e renomeie o arquivo **.env.example** para **.env**, dentro desse arquivo será necessário colocar o token do bot que foi criado no [Portal de Desenvovedor do Discord](https://discord.com/developers/applications), com a seguinte formatação: 
 
 TOKEN=seu_token_vai_aqui
 
