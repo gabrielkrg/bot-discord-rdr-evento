@@ -19,7 +19,7 @@ Feito isso, ainda dentro da pasta do projeto, abra um terminal com o caminho da 
 
 Instaladas as dependencias basta digitar o comando **php .\index.php** para iniciar o bot.
 
-Se a seguinte mensagem no terminal "**Bot is ready!**", tudo está foi configurado corretamente.
+Se a seguinte mensagem aparecer no terminal "**Bot is ready!**", tudo foi configurado corretamente.
 
 ### Notas
 
