@@ -1,0 +1,16 @@
+{
+    "name": "gabriel/discord-rdr-evento",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\DiscordRdrEvento\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "^7.3"
+    }
+}
