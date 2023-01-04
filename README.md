@@ -11,13 +11,13 @@ Bot criado para o evento realizado entre os jogadores do Mephist Gang no jogo Re
 
 ## Configuração do bot
 
-Com o **PHP** e **Composer** instalados e projeto baixado vá até a pasta do projeto e dentro dela crie um arquivo com o nome **.env**, dentro desse arquivo será necessário colocar o token do bot criado no [Portal de Desenvovedor do Discord](https://discord.com/developers/applications) com a seguinte formatação TOKEN=seu_token_vai_aqui.
+Com o **PHP** e **Composer** instalados e projeto baixado, navegue até a pasta do projeto e dentro dela crie um arquivo com o nome **.env**, dentro desse arquivo será necessário colocar o token do bot que foi criado no [Portal de Desenvovedor do Discord](https://discord.com/developers/applications) com a seguinte formatação TOKEN=seu_token_vai_aqui.
 
 Feito isso, ainda dentro da pasta do projeto, abra um terminal com o caminho da pasta (botão dereito em cima ou dentro da pasta e **Abrir terminal**). Com o terminal aberto digite o seguinte comando **composer install** para instalar as dependencias do projeto.
 
 Instaladas as dependencias basta digitar o comando **php .\index.php** para iniciar o bot.
 
-Se a seguinte mensagem no terminal "**Bot is ready!**", tudo está certo.
+Se a seguinte mensagem no terminal "**Bot is ready!**", tudo está foi configurado corretamente.
 
 ### Notas
 
@@ -25,7 +25,7 @@ As linhas referentes aos comandos do bot, que estão localizadas dentro do arqui
 
 Para verficar se os comandos foram registrados com sucesso dentro do discord basta clicar com o botão direito em cima do bot e em seguinda **Gerênciar integração** se os comandos aparecerem  listados as linha podem ser removidas ou comentadas.
 
-Caso desejar habilitar os botões de interação escolher qual time ganhou basta comentar ou remover as linhas 88 e 89 do arquivo index.php.
+Caso desejar habilitar os botões de interação para escolher qual time ganhou basta comentar ou remover as linhas 88 e 89 do arquivo index.php.
 
 ## Comandos
 
